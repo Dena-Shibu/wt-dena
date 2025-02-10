@@ -1,0 +1,40 @@
+body {
+    font-family: rgb(255, 71, 172), sans-serif;
+    background-color: #c5489c;
+    text-align: left;
+}
+h1 {
+    color: #f1eaea;
+    animation: fadeIn 1.5s ease-in-out;
+}
+div{
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+div {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #0c0c0c;
+}
+
+p {
+    color: #555;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
